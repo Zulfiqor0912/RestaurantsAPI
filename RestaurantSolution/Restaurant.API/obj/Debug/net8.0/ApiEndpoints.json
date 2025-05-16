@@ -1,0 +1,43 @@
+[
+  {
+    "ContainingType": "Restaurants.API.Controllers.WeatherForecastController",
+    "Method": "GetCurrentDayForecast",
+    "RelativePath": "WeatherForecast/currentDay",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Restaurant.API.Models.WeatherForecast",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Restaurants.API.Controllers.WeatherForecastController",
+    "Method": "Generate",
+    "RelativePath": "WeatherForecast/generate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "count",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "request",
+        "Type": "Restaurants.API.Controllers.TemperatureRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

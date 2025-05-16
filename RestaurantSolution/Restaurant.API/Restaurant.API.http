@@ -1,0 +1,23 @@
+
+@host = https://localhost
+@port = 7049
+
+@Restaurants.API_HostAddress = {{host}}:{{port}}
+
+GET {{Restaurants.API_HostAddress}}/weatherforecast/currentDay
+Accept: application/json
+# ProjectUrl : {{$projectUrl}}
+# Guid: {{$guid}}
+# LocalDate : {{$datetime iso8601}}
+# RandomIt: {{$randomInt min max}}
+
+###
+
+POST {{Restaurants.API_HostAddress}}/weatherforecast/generate?count=0
+Content-Type: application/json
+
+{
+    "min": -23,
+    "max": 23
+}
+
