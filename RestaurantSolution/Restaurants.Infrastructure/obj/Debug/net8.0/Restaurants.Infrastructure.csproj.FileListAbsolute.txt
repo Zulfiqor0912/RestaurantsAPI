@@ -1,0 +1,17 @@
+D:\Dotnet Projects\RestaurantSolution\Restaurants.Infrastructure\bin\Debug\net8.0\Restaurants.Infrastructure.deps.json
+D:\Dotnet Projects\RestaurantSolution\Restaurants.Infrastructure\bin\Debug\net8.0\Restaurants.Infrastructure.dll
+D:\Dotnet Projects\RestaurantSolution\Restaurants.Infrastructure\bin\Debug\net8.0\Restaurants.Infrastructure.pdb
+D:\Dotnet Projects\RestaurantSolution\Restaurants.Infrastructure\bin\Debug\net8.0\Restaurants.Application.dll
+D:\Dotnet Projects\RestaurantSolution\Restaurants.Infrastructure\bin\Debug\net8.0\Restaurants.Domain.dll
+D:\Dotnet Projects\RestaurantSolution\Restaurants.Infrastructure\bin\Debug\net8.0\Restaurants.Application.pdb
+D:\Dotnet Projects\RestaurantSolution\Restaurants.Infrastructure\bin\Debug\net8.0\Restaurants.Domain.pdb
+D:\Dotnet Projects\RestaurantSolution\Restaurants.Infrastructure\obj\Debug\net8.0\Restaurants.Infrastructure.csproj.AssemblyReference.cache
+D:\Dotnet Projects\RestaurantSolution\Restaurants.Infrastructure\obj\Debug\net8.0\Restaurants.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dotnet Projects\RestaurantSolution\Restaurants.Infrastructure\obj\Debug\net8.0\Restaurants.Infrastructure.AssemblyInfoInputs.cache
+D:\Dotnet Projects\RestaurantSolution\Restaurants.Infrastructure\obj\Debug\net8.0\Restaurants.Infrastructure.AssemblyInfo.cs
+D:\Dotnet Projects\RestaurantSolution\Restaurants.Infrastructure\obj\Debug\net8.0\Restaurants.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Dotnet Projects\RestaurantSolution\Restaurants.Infrastructure\obj\Debug\net8.0\Restaura.2EEA3570.Up2Date
+D:\Dotnet Projects\RestaurantSolution\Restaurants.Infrastructure\obj\Debug\net8.0\Restaurants.Infrastructure.dll
+D:\Dotnet Projects\RestaurantSolution\Restaurants.Infrastructure\obj\Debug\net8.0\refint\Restaurants.Infrastructure.dll
+D:\Dotnet Projects\RestaurantSolution\Restaurants.Infrastructure\obj\Debug\net8.0\Restaurants.Infrastructure.pdb
+D:\Dotnet Projects\RestaurantSolution\Restaurants.Infrastructure\obj\Debug\net8.0\ref\Restaurants.Infrastructure.dll
