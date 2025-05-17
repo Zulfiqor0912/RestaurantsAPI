@@ -8,6 +8,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Restaurants.Infrastructure.Seeders;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using Restaurants.Domain.Repositories;
+using Restaurants.Infrastructure.Repositories;
 
 namespace Restaurants.Infrastructure.Extensions
 {
@@ -20,6 +22,7 @@ namespace Restaurants.Infrastructure.Extensions
                 .AddDbContext<RestaurantsDbContext>(options => options.UseSqlServer(connectionString));
 
             services.AddScoped<IRestaurantSeeders, RestaurantSeeders>();
+            services.AddScoped<IRestaurantsRepository, RestaurantsRepository>();
         }
     }
 }

@@ -21,3 +21,15 @@ C:\Users\eti6969\Desktop\Zulfiqor\RestaurantAPI\RestaurantsAPI\RestaurantSolutio
 C:\Users\eti6969\Desktop\Zulfiqor\RestaurantAPI\RestaurantsAPI\RestaurantSolution\Restaurants.Domain\obj\Debug\net8.0\refint\Restaurants.Domain.dll
 C:\Users\eti6969\Desktop\Zulfiqor\RestaurantAPI\RestaurantsAPI\RestaurantSolution\Restaurants.Domain\obj\Debug\net8.0\Restaurants.Domain.pdb
 C:\Users\eti6969\Desktop\Zulfiqor\RestaurantAPI\RestaurantsAPI\RestaurantSolution\Restaurants.Domain\obj\Debug\net8.0\ref\Restaurants.Domain.dll
+D:\RestaurantsAPI\RestaurantSolution\Restaurants.Domain\bin\Debug\net8.0\Restaurants.Domain.deps.json
+D:\RestaurantsAPI\RestaurantSolution\Restaurants.Domain\bin\Debug\net8.0\Restaurants.Domain.dll
+D:\RestaurantsAPI\RestaurantSolution\Restaurants.Domain\bin\Debug\net8.0\Restaurants.Domain.pdb
+D:\RestaurantsAPI\RestaurantSolution\Restaurants.Domain\obj\Debug\net8.0\Restaurants.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\RestaurantsAPI\RestaurantSolution\Restaurants.Domain\obj\Debug\net8.0\Restaurants.Domain.AssemblyInfoInputs.cache
+D:\RestaurantsAPI\RestaurantSolution\Restaurants.Domain\obj\Debug\net8.0\Restaurants.Domain.AssemblyInfo.cs
+D:\RestaurantsAPI\RestaurantSolution\Restaurants.Domain\obj\Debug\net8.0\Restaurants.Domain.csproj.CoreCompileInputs.cache
+D:\RestaurantsAPI\RestaurantSolution\Restaurants.Domain\obj\Debug\net8.0\Restaurants.Domain.sourcelink.json
+D:\RestaurantsAPI\RestaurantSolution\Restaurants.Domain\obj\Debug\net8.0\Restaurants.Domain.dll
+D:\RestaurantsAPI\RestaurantSolution\Restaurants.Domain\obj\Debug\net8.0\refint\Restaurants.Domain.dll
+D:\RestaurantsAPI\RestaurantSolution\Restaurants.Domain\obj\Debug\net8.0\Restaurants.Domain.pdb
+D:\RestaurantsAPI\RestaurantSolution\Restaurants.Domain\obj\Debug\net8.0\ref\Restaurants.Domain.dll

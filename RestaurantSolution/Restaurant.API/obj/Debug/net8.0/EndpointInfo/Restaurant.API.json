@@ -1,73 +1,15 @@
 {
-  "openapi": "3.0.1",
+  "openapi": "3.0.4",
   "info": {
     "title": "Restaurant.API",
     "version": "1.0"
   },
   "paths": {
-    "/WeatherForecast/currentDay": {
+    "/api/restaurants": {
       "get": {
         "tags": [
-          "WeatherForecast"
+          "Restaurants"
         ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/WeatherForecast"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/WeatherForecast"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/WeatherForecast"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/WeatherForecast/generate": {
-      "post": {
-        "tags": [
-          "WeatherForecast"
-        ],
-        "parameters": [
-          {
-            "name": "count",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/TemperatureRequest"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/TemperatureRequest"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/TemperatureRequest"
-              }
-            }
-          }
-        },
         "responses": {
           "200": {
             "description": "OK"
@@ -76,45 +18,5 @@
       }
     }
   },
-  "components": {
-    "schemas": {
-      "TemperatureRequest": {
-        "type": "object",
-        "properties": {
-          "min": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "max": {
-            "type": "integer",
-            "format": "int32"
-          }
-        },
-        "additionalProperties": false
-      },
-      "WeatherForecast": {
-        "type": "object",
-        "properties": {
-          "date": {
-            "type": "string",
-            "format": "date"
-          },
-          "temperatureC": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "temperatureF": {
-            "type": "integer",
-            "format": "int32",
-            "readOnly": true
-          },
-          "summary": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      }
-    }
-  }
+  "components": { }
 }
