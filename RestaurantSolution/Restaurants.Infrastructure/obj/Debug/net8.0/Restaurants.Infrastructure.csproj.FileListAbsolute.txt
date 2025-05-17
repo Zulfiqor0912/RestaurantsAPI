@@ -17,3 +17,23 @@ D:\My Projects\RestaurantSolution\Restaurants.Infrastructure\obj\Debug\net8.0\re
 D:\My Projects\RestaurantSolution\Restaurants.Infrastructure\obj\Debug\net8.0\Restaurants.Infrastructure.pdb
 D:\My Projects\RestaurantSolution\Restaurants.Infrastructure\obj\Debug\net8.0\Restaurants.Infrastructure.genruntimeconfig.cache
 D:\My Projects\RestaurantSolution\Restaurants.Infrastructure\obj\Debug\net8.0\ref\Restaurants.Infrastructure.dll
+C:\Users\eti6969\Desktop\Zulfiqor\RestaurantAPI\RestaurantsAPI\RestaurantSolution\Restaurants.Infrastructure\bin\Debug\net8.0\Restaurants.Infrastructure.deps.json
+C:\Users\eti6969\Desktop\Zulfiqor\RestaurantAPI\RestaurantsAPI\RestaurantSolution\Restaurants.Infrastructure\bin\Debug\net8.0\Restaurants.Infrastructure.runtimeconfig.json
+C:\Users\eti6969\Desktop\Zulfiqor\RestaurantAPI\RestaurantsAPI\RestaurantSolution\Restaurants.Infrastructure\bin\Debug\net8.0\Restaurants.Infrastructure.dll
+C:\Users\eti6969\Desktop\Zulfiqor\RestaurantAPI\RestaurantsAPI\RestaurantSolution\Restaurants.Infrastructure\bin\Debug\net8.0\Restaurants.Infrastructure.pdb
+C:\Users\eti6969\Desktop\Zulfiqor\RestaurantAPI\RestaurantsAPI\RestaurantSolution\Restaurants.Infrastructure\bin\Debug\net8.0\Restaurants.Application.dll
+C:\Users\eti6969\Desktop\Zulfiqor\RestaurantAPI\RestaurantsAPI\RestaurantSolution\Restaurants.Infrastructure\bin\Debug\net8.0\Restaurants.Domain.dll
+C:\Users\eti6969\Desktop\Zulfiqor\RestaurantAPI\RestaurantsAPI\RestaurantSolution\Restaurants.Infrastructure\bin\Debug\net8.0\Restaurants.Application.pdb
+C:\Users\eti6969\Desktop\Zulfiqor\RestaurantAPI\RestaurantsAPI\RestaurantSolution\Restaurants.Infrastructure\bin\Debug\net8.0\Restaurants.Domain.pdb
+C:\Users\eti6969\Desktop\Zulfiqor\RestaurantAPI\RestaurantsAPI\RestaurantSolution\Restaurants.Infrastructure\obj\Debug\net8.0\Restaurants.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\eti6969\Desktop\Zulfiqor\RestaurantAPI\RestaurantsAPI\RestaurantSolution\Restaurants.Infrastructure\obj\Debug\net8.0\Restaurants.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eti6969\Desktop\Zulfiqor\RestaurantAPI\RestaurantsAPI\RestaurantSolution\Restaurants.Infrastructure\obj\Debug\net8.0\Restaurants.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\eti6969\Desktop\Zulfiqor\RestaurantAPI\RestaurantsAPI\RestaurantSolution\Restaurants.Infrastructure\obj\Debug\net8.0\Restaurants.Infrastructure.AssemblyInfo.cs
+C:\Users\eti6969\Desktop\Zulfiqor\RestaurantAPI\RestaurantsAPI\RestaurantSolution\Restaurants.Infrastructure\obj\Debug\net8.0\Restaurants.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\eti6969\Desktop\Zulfiqor\RestaurantAPI\RestaurantsAPI\RestaurantSolution\Restaurants.Infrastructure\obj\Debug\net8.0\Restaurants.Infrastructure.sourcelink.json
+C:\Users\eti6969\Desktop\Zulfiqor\RestaurantAPI\RestaurantsAPI\RestaurantSolution\Restaurants.Infrastructure\obj\Debug\net8.0\Restaura.2EEA3570.Up2Date
+C:\Users\eti6969\Desktop\Zulfiqor\RestaurantAPI\RestaurantsAPI\RestaurantSolution\Restaurants.Infrastructure\obj\Debug\net8.0\Restaurants.Infrastructure.dll
+C:\Users\eti6969\Desktop\Zulfiqor\RestaurantAPI\RestaurantsAPI\RestaurantSolution\Restaurants.Infrastructure\obj\Debug\net8.0\refint\Restaurants.Infrastructure.dll
+C:\Users\eti6969\Desktop\Zulfiqor\RestaurantAPI\RestaurantsAPI\RestaurantSolution\Restaurants.Infrastructure\obj\Debug\net8.0\Restaurants.Infrastructure.pdb
+C:\Users\eti6969\Desktop\Zulfiqor\RestaurantAPI\RestaurantsAPI\RestaurantSolution\Restaurants.Infrastructure\obj\Debug\net8.0\Restaurants.Infrastructure.genruntimeconfig.cache
+C:\Users\eti6969\Desktop\Zulfiqor\RestaurantAPI\RestaurantsAPI\RestaurantSolution\Restaurants.Infrastructure\obj\Debug\net8.0\ref\Restaurants.Infrastructure.dll

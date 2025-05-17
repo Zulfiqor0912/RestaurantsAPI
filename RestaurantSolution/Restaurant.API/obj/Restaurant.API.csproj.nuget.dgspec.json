@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\RestaurantsAPI\\RestaurantSolution\\Restaurant.API\\Restaurant.API.csproj": {}
+    "C:\\Users\\eti6969\\Desktop\\Zulfiqor\\RestaurantAPI\\RestaurantsAPI\\RestaurantSolution\\Restaurant.API\\Restaurant.API.csproj": {}
   },
   "projects": {
-    "D:\\RestaurantsAPI\\RestaurantSolution\\Restaurant.API\\Restaurant.API.csproj": {
+    "C:\\Users\\eti6969\\Desktop\\Zulfiqor\\RestaurantAPI\\RestaurantsAPI\\RestaurantSolution\\Restaurant.API\\Restaurant.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\RestaurantsAPI\\RestaurantSolution\\Restaurant.API\\Restaurant.API.csproj",
+        "projectUniqueName": "C:\\Users\\eti6969\\Desktop\\Zulfiqor\\RestaurantAPI\\RestaurantsAPI\\RestaurantSolution\\Restaurant.API\\Restaurant.API.csproj",
         "projectName": "Restaurant.API",
-        "projectPath": "D:\\RestaurantsAPI\\RestaurantSolution\\Restaurant.API\\Restaurant.API.csproj",
-        "packagesPath": "C:\\Users\\zulfi\\.nuget\\packages\\",
-        "outputPath": "D:\\RestaurantsAPI\\RestaurantSolution\\Restaurant.API\\obj\\",
+        "projectPath": "C:\\Users\\eti6969\\Desktop\\Zulfiqor\\RestaurantAPI\\RestaurantsAPI\\RestaurantSolution\\Restaurant.API\\Restaurant.API.csproj",
+        "packagesPath": "C:\\Users\\eti6969\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eti6969\\Desktop\\Zulfiqor\\RestaurantAPI\\RestaurantsAPI\\RestaurantSolution\\Restaurant.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\zulfi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eti6969\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,17 +26,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Application\\Restaurants.Application.csproj": {
-                "projectPath": "D:\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Application\\Restaurants.Application.csproj"
+              "C:\\Users\\eti6969\\Desktop\\Zulfiqor\\RestaurantAPI\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Application\\Restaurants.Application.csproj": {
+                "projectPath": "C:\\Users\\eti6969\\Desktop\\Zulfiqor\\RestaurantAPI\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Application\\Restaurants.Application.csproj"
               },
-              "D:\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj": {
-                "projectPath": "D:\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj"
+              "C:\\Users\\eti6969\\Desktop\\Zulfiqor\\RestaurantAPI\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\eti6969\\Desktop\\Zulfiqor\\RestaurantAPI\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj"
               }
             }
           }
@@ -60,6 +61,10 @@
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[9.0.5, )"
             },
@@ -91,20 +96,20 @@
         }
       }
     },
-    "D:\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Application\\Restaurants.Application.csproj": {
+    "C:\\Users\\eti6969\\Desktop\\Zulfiqor\\RestaurantAPI\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Application\\Restaurants.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Application\\Restaurants.Application.csproj",
+        "projectUniqueName": "C:\\Users\\eti6969\\Desktop\\Zulfiqor\\RestaurantAPI\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Application\\Restaurants.Application.csproj",
         "projectName": "Restaurants.Application",
-        "projectPath": "D:\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Application\\Restaurants.Application.csproj",
-        "packagesPath": "C:\\Users\\zulfi\\.nuget\\packages\\",
-        "outputPath": "D:\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Application\\obj\\",
+        "projectPath": "C:\\Users\\eti6969\\Desktop\\Zulfiqor\\RestaurantAPI\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Application\\Restaurants.Application.csproj",
+        "packagesPath": "C:\\Users\\eti6969\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eti6969\\Desktop\\Zulfiqor\\RestaurantAPI\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\zulfi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eti6969\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -113,14 +118,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Domain\\Restaurants.Domain.csproj": {
-                "projectPath": "D:\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Domain\\Restaurants.Domain.csproj"
+              "C:\\Users\\eti6969\\Desktop\\Zulfiqor\\RestaurantAPI\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Domain\\Restaurants.Domain.csproj": {
+                "projectPath": "C:\\Users\\eti6969\\Desktop\\Zulfiqor\\RestaurantAPI\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Domain\\Restaurants.Domain.csproj"
               }
             }
           }
@@ -160,20 +166,20 @@
         }
       }
     },
-    "D:\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Domain\\Restaurants.Domain.csproj": {
+    "C:\\Users\\eti6969\\Desktop\\Zulfiqor\\RestaurantAPI\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Domain\\Restaurants.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Domain\\Restaurants.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\eti6969\\Desktop\\Zulfiqor\\RestaurantAPI\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Domain\\Restaurants.Domain.csproj",
         "projectName": "Restaurants.Domain",
-        "projectPath": "D:\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Domain\\Restaurants.Domain.csproj",
-        "packagesPath": "C:\\Users\\zulfi\\.nuget\\packages\\",
-        "outputPath": "D:\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Domain\\obj\\",
+        "projectPath": "C:\\Users\\eti6969\\Desktop\\Zulfiqor\\RestaurantAPI\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Domain\\Restaurants.Domain.csproj",
+        "packagesPath": "C:\\Users\\eti6969\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eti6969\\Desktop\\Zulfiqor\\RestaurantAPI\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\zulfi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eti6969\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -182,6 +188,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -225,20 +232,20 @@
         }
       }
     },
-    "D:\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj": {
+    "C:\\Users\\eti6969\\Desktop\\Zulfiqor\\RestaurantAPI\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\eti6969\\Desktop\\Zulfiqor\\RestaurantAPI\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj",
         "projectName": "Restaurants.Infrastructure",
-        "projectPath": "D:\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\zulfi\\.nuget\\packages\\",
-        "outputPath": "D:\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\eti6969\\Desktop\\Zulfiqor\\RestaurantAPI\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\eti6969\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eti6969\\Desktop\\Zulfiqor\\RestaurantAPI\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\zulfi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eti6969\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -247,14 +254,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Application\\Restaurants.Application.csproj": {
-                "projectPath": "D:\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Application\\Restaurants.Application.csproj"
+              "C:\\Users\\eti6969\\Desktop\\Zulfiqor\\RestaurantAPI\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Application\\Restaurants.Application.csproj": {
+                "projectPath": "C:\\Users\\eti6969\\Desktop\\Zulfiqor\\RestaurantAPI\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Application\\Restaurants.Application.csproj"
               }
             }
           }
