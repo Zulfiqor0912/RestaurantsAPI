@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "xDITxVgk7CQ=",
+  "dgSpecHash": "sRmd9KhXqFk=",
   "success": true,
-  "projectFilePath": "D:\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Application\\Restaurants.Application.csproj",
+  "projectFilePath": "C:\\Zulfiqor\\dotNet\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Application\\Restaurants.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\zulfi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.5\\microsoft.extensions.dependencyinjection.abstractions.9.0.5.nupkg.sha512",
-    "C:\\Users\\zulfi\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.5\\microsoft.extensions.logging.abstractions.9.0.5.nupkg.sha512",
-    "C:\\Users\\zulfi\\.nuget\\packages\\system.diagnostics.diagnosticsource\\9.0.5\\system.diagnostics.diagnosticsource.9.0.5.nupkg.sha512"
+    "C:\\Users\\eti6969\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.5\\microsoft.extensions.dependencyinjection.abstractions.9.0.5.nupkg.sha512",
+    "C:\\Users\\eti6969\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.5\\microsoft.extensions.logging.abstractions.9.0.5.nupkg.sha512",
+    "C:\\Users\\eti6969\\.nuget\\packages\\system.diagnostics.diagnosticsource\\9.0.5\\system.diagnostics.diagnosticsource.9.0.5.nupkg.sha512"
   ],
   "logs": []
 }
