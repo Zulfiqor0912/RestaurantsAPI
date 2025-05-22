@@ -6,6 +6,6 @@
 @Restaurants.API_HostAddress = {{host}}:{{port}}
 
 
-GET {{Restaurant.API_HostAddress}}/api/restaurants/132
+GET {{Restaurant.API_HostAddress}}/api/restaurants/1
 
 ###

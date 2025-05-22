@@ -69,7 +69,14 @@
           }
         }
       },
-      "Microsoft.Build.Framework/17.8.3": {},
+      "Microsoft.Build.Framework/17.8.3": {
+        "runtime": {
+          "lib/net8.0/Microsoft.Build.Framework.dll": {
+            "assemblyVersion": "15.1.0.0",
+            "fileVersion": "17.8.3.51904"
+          }
+        }
+      },
       "Microsoft.Build.Locator/1.7.8": {
         "runtime": {
           "lib/net6.0/Microsoft.Build.Locator.dll": {
@@ -1084,6 +1091,7 @@
       },
       "Restaurants.Application/1.0.0": {
         "dependencies": {
+          "Microsoft.Build.Framework": "17.8.3",
           "Microsoft.Extensions.Logging.Abstractions": "9.0.5",
           "Restaurants.Domain": "1.0.0"
         },
