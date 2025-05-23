@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Zulfiqor\\dotNet\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Domain\\Restaurants.Domain.csproj": {}
+    "D:\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Domain\\Restaurants.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Zulfiqor\\dotNet\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Domain\\Restaurants.Domain.csproj": {
+    "D:\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Domain\\Restaurants.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Zulfiqor\\dotNet\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Domain\\Restaurants.Domain.csproj",
+        "projectUniqueName": "D:\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Domain\\Restaurants.Domain.csproj",
         "projectName": "Restaurants.Domain",
-        "projectPath": "C:\\Zulfiqor\\dotNet\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Domain\\Restaurants.Domain.csproj",
-        "packagesPath": "C:\\Users\\eti6969\\.nuget\\packages\\",
-        "outputPath": "C:\\Zulfiqor\\dotNet\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Domain\\obj\\",
+        "projectPath": "D:\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Domain\\Restaurants.Domain.csproj",
+        "packagesPath": "C:\\Users\\zulfi\\.nuget\\packages\\",
+        "outputPath": "D:\\RestaurantsAPI\\RestaurantSolution\\Restaurants.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\eti6969\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zulfi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
