@@ -4,9 +4,9 @@ namespace Restaurants.Application.Dishes.Dtos;
 
 public class DishesProfile : Profile
 {
-    public DishesProfile()
-    {
-        CreateMap<Dishes, DishDto>()
-            .Map
-    }
+    //public DishesProfile()
+    //{
+    //    CreateMap<Dishes, DishDto>()
+    //        .Map
+    //}
 }
