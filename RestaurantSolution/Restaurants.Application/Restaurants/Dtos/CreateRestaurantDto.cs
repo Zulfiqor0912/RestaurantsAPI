@@ -1,4 +1,6 @@
-﻿namespace Restaurants.Application.Restaurants.Dtos;
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Restaurants.Application.Restaurants.Dtos;
 
 public class CreateRestaurantDto
 {
@@ -6,10 +8,8 @@ public class CreateRestaurantDto
     public string Description { get; set; } = default!;
     public string Category { get; set; } = default!;
     public bool HasDelivery { get; set; } = default!;
-
     public string? ContactEmail { get; set; }
     public string? ContactNumber { get; set; }
-
     public string? City { get; set; }
     public string? Street { get; set; }
     public string? PostalCode { get; set; }
