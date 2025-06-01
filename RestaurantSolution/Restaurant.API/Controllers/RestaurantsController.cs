@@ -35,5 +35,15 @@ public class RestaurantsController(IMediator mediator) : ControllerBase
         int id = await mediator.Send(command);
         return CreatedAtAction(nameof(GetById), new {id}, null);
     }
+
+    [HttpDelete("{id}")]
+    public async Task<IActionResult> DeleteRestaurant([FromRoute] int id)
+    {
+        var restaurant = await mediator.Send(new GetRestaurantByIdQuery(id));
+        if (restaurant is null)
+            return NotFound();
+
+        return Ok(restaurant);
+    }
 }
 
