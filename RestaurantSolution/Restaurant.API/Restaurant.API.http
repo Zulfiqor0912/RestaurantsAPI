@@ -6,7 +6,15 @@
 @Restaurants.API_HostAddress = {{host}}:{{port}}
 
 
-GET {{Restaurant.API_HostAddress}}/api/restaurants/1
+GET {{Restaurant.API_HostAddress}}/api/restaurants
+
+
+
+###
+
+
+
+GET {{Restaurant.API_HostAddress}}/api/restaurants/21
 
 
 ###
@@ -14,7 +22,7 @@ GET {{Restaurant.API_HostAddress}}/api/restaurants/1
 POST {{Restaurant.API_HostAddress}}/api/restaurants
 Content-Type: application/json
 {
-    "Name": "",
+    "Name": "Ahmad",
       "Description": "A cozy restaurant serving a variety of delicious dishes.",
       "Category": "Indian",
       "HasDelivery": true,

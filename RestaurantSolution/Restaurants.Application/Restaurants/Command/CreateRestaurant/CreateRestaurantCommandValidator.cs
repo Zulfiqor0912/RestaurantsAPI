@@ -1,21 +1,20 @@
 ﻿using FluentValidation;
 using Restaurants.Application.Restaurants.Dtos;
 
-namespace Restaurants.Application.Restaurants.Validators;
+namespace Restaurants.Application.Restaurants.Command.CreateRestaurant;
 
-public class CreatRestaurantDtoValidator : AbstractValidator<CreateRestaurantDto>
+public class CreateRestaurantCommandValidator : AbstractValidator<CreateRestaurantCommand>
 {
-    public CreatRestaurantDtoValidator()
+    private readonly List<string> validCategories = ["Italian", "Mexican", "Japanese", "American", "Indian"];
+    public CreateRestaurantCommandValidator()
     {
         RuleFor(x => x.Name)
             .NotEmpty().WithMessage("Restoran nomi bo'sh bo'lmasligi kerak.")
             .Length(3, 100).WithMessage("Restoran nomi 3 dan 100 ta belgigacha bo'lishi kerak.");
 
-        RuleFor(x => x.Description)
-            .NotEmpty().WithMessage("Restoran tavsifi bo'sh bo'lmasligi kerak.");
-
         RuleFor(x => x.Category)
-            .NotEmpty().WithMessage("Tegishli toifani kiriting.");
+            .Must(validCategories.Contains)
+            .WithMessage("Kategoriya xato. Iltimos to'g'ri kategoriyani tanlang");
 
         RuleFor(x => x.ContactEmail)
             .EmailAddress().WithMessage("Yaroqli elektron pochta manzilini kiriting.");
