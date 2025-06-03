@@ -7,7 +7,6 @@ using Restaurants.Domain.Repositories;
 namespace Restaurants.Application.Restaurants.Command.DeleteRestaurant;
 
 internal class DeleteRestaurantCommandHandler(
-    IMapper mapper,
     IRestaurantsRepository restaurantsRepository,
     ILogger<DeleteRestaurantCommandHandler> logger) : IRequestHandler<DeleteRestaurantCommand, bool>
 {

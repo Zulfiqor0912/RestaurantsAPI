@@ -40,3 +40,13 @@ DELETE {{Restaurant.API_HostAddress}}/api/restaurants/9
 
 
 ###
+PATCH {{Restaurant.API_HostAddress}}/api/restaurants/10
+Content-Type: application/json
+
+{
+  "Name": "Boba",
+  "Description": "d",
+  "HasDelivery": true
+}
+
+###
