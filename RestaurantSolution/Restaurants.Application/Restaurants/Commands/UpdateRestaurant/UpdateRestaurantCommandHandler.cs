@@ -2,6 +2,7 @@
 using MediatR;
 using Microsoft.Build.Framework;
 using Microsoft.Extensions.Logging;
+using Restaurants.Domain.Exceptions;
 using Restaurants.Domain.Repositories;
 
 namespace Restaurants.Application.Restaurants.Command.UpdateRestaurant;
@@ -18,7 +19,7 @@ public class UpdateRestaurantCommandHandler(
         logger.LogInformation($"Ushbu Id = {request.Id} bo'lgan restoran ma'lumotlari yangilandi");
         var restaurant = await restaurantsRepository.GetByIdAsync(request.Id);
         if (restaurant is null)
-            return false;
+            throw new NotFoundException($"Bu {request.Id} dagi restorant bo'sh");
         mapper.Map(request, restaurant);
         //restaurant.Name = request.Name;
         //restaurant.Description = request.Description;
