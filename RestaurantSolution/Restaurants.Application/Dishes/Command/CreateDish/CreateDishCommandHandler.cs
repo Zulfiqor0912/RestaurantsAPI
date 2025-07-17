@@ -1,19 +1,26 @@
-﻿using MediatR;
-using Microsoft.Build.Framework;
+﻿using AutoMapper;
+using MediatR;
 using Microsoft.Extensions.Logging;
 using Restaurants.Domain.Entities;
+using Restaurants.Domain.Exceptions;
 using Restaurants.Domain.Repositories;
 
 namespace Restaurants.Application.Dishes.Command.CreateDish;
 
 public class CreateDishCommandHandler(ILogger<CreateDishCommandHandler> logger, 
-    IRestaurantsRepository restaurantsRepository) : IRequestHandler<CreateDishCommand>
+    IRestaurantsRepository restaurantsRepository,
+    IMapper mapper,
+    IDishRepository dishRepository) : IRequestHandler<CreateDishCommand>
 {
 
     public async Task Handle(CreateDishCommand request, CancellationToken cancellationToken)
     {
         logger.LogInformation($"Yangi idish yaratildi: ", request);
-        var restaurant = await restaurantsRepository.GetByIdAsync(request.RestaturantId);
-        if (restaurant == null) throw new DirectoryNotFoundException(nameof(Restaurant), request.RestaturantId.ToString());
+        var restaurant = await restaurantsRepository.GetByIdAsync(request.RestaurantId);
+        if (restaurant == null) throw new NotFoundException(nameof(Restaurant), request.RestaurantId.ToString());
+
+        var dish = mapper.Map<Dish>(request);
+
+        await dishRepository.Create(dish);
     }
 }
