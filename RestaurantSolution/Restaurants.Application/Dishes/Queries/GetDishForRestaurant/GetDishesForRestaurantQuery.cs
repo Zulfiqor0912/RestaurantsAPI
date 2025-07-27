@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using MediatR;
+using Restaurants.Application.Dishes.Dtos;
 
-namespace Restaurants.Application.Dishes.Queries.GetDishForRestaurant
+namespace Restaurants.Application.Dishes.Queries.GetDishForRestaurant;
+
+public class GetDishesForRestaurantQuery(int restaurantId) : IRequest<IEnumerable<DishDto>>
 {
-    internal class GetDishesForRestaurantQuery
-    {
-    }
+    public int RestaurantId { get; } = restaurantId;
+
 }
