@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using MediatR;
 
-namespace Restaurants.Application.Dishes.Command.DeleteDish
+namespace Restaurants.Application.Dishes.Command.DeleteDish;
+
+public class DeleteDishForRestaurantCommand(int restaurantId) : IRequest
 {
-    internal class DeleteDishForCommand
-    {
-    }
+    public int RestaurantId { get; } = restaurantId;
 }

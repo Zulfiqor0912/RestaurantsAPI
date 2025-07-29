@@ -33,3 +33,4 @@ D:\RestaurantsAPI\RestaurantSolution\Restaurants.Domain\obj\Debug\net8.0\Restaur
 D:\RestaurantsAPI\RestaurantSolution\Restaurants.Domain\obj\Debug\net8.0\refint\Restaurants.Domain.dll
 D:\RestaurantsAPI\RestaurantSolution\Restaurants.Domain\obj\Debug\net8.0\Restaurants.Domain.pdb
 D:\RestaurantsAPI\RestaurantSolution\Restaurants.Domain\obj\Debug\net8.0\ref\Restaurants.Domain.dll
+D:\RestaurantsAPI\RestaurantSolution\Restaurants.Domain\obj\Debug\net8.0\Restaurants.Domain.csproj.AssemblyReference.cache
