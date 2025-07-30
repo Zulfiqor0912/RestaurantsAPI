@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Restaurants.Domain.Entities;
+﻿using Restaurants.Domain.Entities;
 using Restaurants.Infrastructure.Persistence;
 
 namespace Restaurants.Infrastructure.Seeders;
@@ -12,7 +7,7 @@ internal class RestaurantSeeders(RestaurantsDbContext dbContext) : IRestaurantSe
 {
     public async Task Seed()
     {
-        if (await dbContext.Database.CanConnectAsync()) 
+        if (await dbContext.Database.CanConnectAsync())
         {
             if (!dbContext.Restaurants.Any())
             {

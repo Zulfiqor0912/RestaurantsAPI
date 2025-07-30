@@ -8,5 +8,3 @@ public interface IDishRepository
 
     Task Delete(IEnumerable<Dish> entities);
 }
-
-

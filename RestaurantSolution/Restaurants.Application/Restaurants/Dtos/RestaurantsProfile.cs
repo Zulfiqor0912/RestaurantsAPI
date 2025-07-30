@@ -5,7 +5,7 @@ using Restaurants.Domain.Entities;
 
 namespace Restaurants.Application.Restaurants.Dtos;
 
-public class RestaurantsProfile:Profile
+public class RestaurantsProfile : Profile
 {
     public RestaurantsProfile()
     {
@@ -31,4 +31,3 @@ public class RestaurantsProfile:Profile
                 opt.MapFrom(src => src.Dishes));
     }
 }
-

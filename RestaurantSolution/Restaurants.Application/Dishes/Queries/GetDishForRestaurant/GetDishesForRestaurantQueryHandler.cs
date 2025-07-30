@@ -19,6 +19,6 @@ public class GetDishesForRestaurantQueryHandler(ILogger<GetDishesForRestaurantQu
 
         if (restaurant == null) throw new NotFoundException(nameof(Restaurant), request.RestaurantId.ToString());
         var result = mapper.Map<IEnumerable<DishDto>>(restaurant.Dishes);
-        return result;  
+        return result;
     }
 }

@@ -4,15 +4,14 @@ using Microsoft.Extensions.Logging;
 using Restaurants.Domain.Entities;
 using Restaurants.Domain.Exceptions;
 using Restaurants.Domain.Repositories;
-  
+
 namespace Restaurants.Application.Dishes.Command.CreateDish;
 
-public class CreateDishCommandHandler(ILogger<CreateDishCommandHandler> logger, 
+public class CreateDishCommandHandler(ILogger<CreateDishCommandHandler> logger,
     IRestaurantsRepository restaurantsRepository,
     IMapper mapper,
     IDishRepository dishRepository) : IRequestHandler<CreateDishCommand, int>
 {
-
     public async Task<int> Handle(CreateDishCommand request, CancellationToken cancellationToken)
     {
         logger.LogInformation($"Yangi idish yaratildi: ", request);

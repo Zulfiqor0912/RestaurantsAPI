@@ -2,12 +2,12 @@
 
 @host = https://localhost
 @port = 7049
-
+##@token = CfDJ8BWwd6bU_aJOqFqnjdD6hnqJsdRDF2IZ9zk6xLqWXdHPMFCByvr73P8x7SdbGTKKurQN2WcXyxjmXAX8b5AqvHLDKXiELqw12ACi3_Fw6gCyl-apPXTzGQTPxmR9w_igFFbXP6N3CRDjyMmGVMUtXXS69v-mNGWlZzVYYHsVUTP2_aN9tl5866Lxp04THaGvlg-CXo7Vce1_tl0kOqm5ULnO1376bTKkss0URHNktFDnRdX6VlrEbCSIM1j7CMMsNTN1ckR4VRLN4iKiK-WIU1RXXN0_QDootsDNP761KQdu17Znz_b6HLeKZvC1SZDk9T4I8JWK9GiIWyftvxCHAwe-p5eaU7meKEAcjJxRBPSXpFmm7fg8XCxW52j9WCOFDOIX5gTl3AqmKNzeAI5RCR65mRPTy4XDjD5RuY9KJQQd4yyKowiuL5Auk7SoRVl29_kDV_1EgCq9JDlj72kHFP2Dyx_fSyX-INxxvnye76N0O4s3wooUtPrRcsw3nCq7345x-BMHuqcEzTKiqUQfelIzeSuGuVp1xxSbfcpSwOwPhphaeiDh_JbGsdfpRDMq5r4gGwM3KPuvbxRyQnwAj9_DfbbjzZkN77icbm0UgqrrRR479nnfKhp_pMlAXoIiv2NjTz8vvL5zQm6jhYqGW3yHPNmgRT6gIwsC2b-kC_GhIfuxJhxo6zAcVac3pbBK6W2WAmx-IhPFUCD9Jkiyb-w
 @Restaurants.API_HostAddress = {{host}}:{{port}}
 
 
 GET {{Restaurant.API_HostAddress}}/api/restaurants
-
+Authorization: Bearer {{token}}}
 
 
 ###
@@ -63,7 +63,7 @@ GET {{Restaurants.API_HostAddress}}/api/restaurant/10/dishes/3
 
 ###
 
-POST {{Restaurants.API_HostAddress}}/register
+POST {{Restaurants.API_HostAddress}}/api/identity/register
 Content-Type: application/json
 
 {
@@ -73,7 +73,7 @@ Content-Type: application/json
 
 ###
 
-POST {{Restaurants.API_HostAddress}}/login
+POST {{Restaurants.API_HostAddress}}/api/identity/login
 Content-Type: application/json
 
 {

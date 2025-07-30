@@ -9,4 +9,4 @@ public class CreateDishCommand : IRequest<int>
     public decimal Price { get; set; }
     public int? KiloCalories { get; set; }
     public int RestaurantId { get; set; }
-    }
+}

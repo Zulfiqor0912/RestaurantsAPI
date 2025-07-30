@@ -1,11 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Restaurants.Domain.Entities;
+﻿using Restaurants.Domain.Entities;
 using Restaurants.Domain.Repositories;
 using Restaurants.Infrastructure.Persistence;
 
 namespace Restaurants.Infrastructure.Repositories;
 
-internal  class DishRepository(RestaurantsDbContext dbContext) : IDishRepository
+internal class DishRepository(RestaurantsDbContext dbContext) : IDishRepository
 {
     public async Task<int> Create(Dish dish)
     {
@@ -19,5 +18,4 @@ internal  class DishRepository(RestaurantsDbContext dbContext) : IDishRepository
         dbContext.Remove(entities);
         await dbContext.SaveChangesAsync();
     }
-
 }

@@ -1,6 +1,5 @@
 ﻿using AutoMapper;
 using MediatR;
-using Microsoft.Build.Framework;
 using Microsoft.Extensions.Logging;
 using Restaurants.Application.Dishes.Dtos;
 using Restaurants.Domain.Entities;
@@ -13,7 +12,6 @@ public class GetDishByIdRestaurantQueryHandler(ILogger<GetDishByIdRestaurantQuer
     IMapper mapper,
     IRestaurantsRepository restaurantsRepository) : IRequestHandler<GetDishByIdRestaurantQuery, DishDto>
 {
-
     async Task<DishDto> IRequestHandler<GetDishByIdRestaurantQuery, DishDto>.Handle(GetDishByIdRestaurantQuery request, CancellationToken cancellationToken)
     {
         logger.LogInformation("Retrieving dish: {DishId} for restaurant with Id: {RestaurantId}", request.DishId, request.RestaurantId);

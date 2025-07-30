@@ -1,6 +1,4 @@
-﻿using AutoMapper;
-using MediatR;
-using Microsoft.Build.Framework;
+﻿using MediatR;
 using Microsoft.Extensions.Logging;
 using Restaurants.Domain.Entities;
 using Restaurants.Domain.Exceptions;
