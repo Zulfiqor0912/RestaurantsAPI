@@ -2,12 +2,12 @@
 
 @host = https://localhost
 @port = 7049
-##@token = CfDJ8BWwd6bU_aJOqFqnjdD6hnqJsdRDF2IZ9zk6xLqWXdHPMFCByvr73P8x7SdbGTKKurQN2WcXyxjmXAX8b5AqvHLDKXiELqw12ACi3_Fw6gCyl-apPXTzGQTPxmR9w_igFFbXP6N3CRDjyMmGVMUtXXS69v-mNGWlZzVYYHsVUTP2_aN9tl5866Lxp04THaGvlg-CXo7Vce1_tl0kOqm5ULnO1376bTKkss0URHNktFDnRdX6VlrEbCSIM1j7CMMsNTN1ckR4VRLN4iKiK-WIU1RXXN0_QDootsDNP761KQdu17Znz_b6HLeKZvC1SZDk9T4I8JWK9GiIWyftvxCHAwe-p5eaU7meKEAcjJxRBPSXpFmm7fg8XCxW52j9WCOFDOIX5gTl3AqmKNzeAI5RCR65mRPTy4XDjD5RuY9KJQQd4yyKowiuL5Auk7SoRVl29_kDV_1EgCq9JDlj72kHFP2Dyx_fSyX-INxxvnye76N0O4s3wooUtPrRcsw3nCq7345x-BMHuqcEzTKiqUQfelIzeSuGuVp1xxSbfcpSwOwPhphaeiDh_JbGsdfpRDMq5r4gGwM3KPuvbxRyQnwAj9_DfbbjzZkN77icbm0UgqrrRR479nnfKhp_pMlAXoIiv2NjTz8vvL5zQm6jhYqGW3yHPNmgRT6gIwsC2b-kC_GhIfuxJhxo6zAcVac3pbBK6W2WAmx-IhPFUCD9Jkiyb-w
+@token = CfDJ8BWwd6bU_aJOqFqnjdD6hnr8z3p4HtwSa2nLTiJ5vvJGEPHgjzaRM7R92UTPc28mkeuZCv03lE9Cq6yetohGz4LHZLBMENzwOr0weHpZ0gnH1x99qP9t4ledCc-2k3IBr6indSLUtgo8m2RX95r7TqlQLtRONrlusQftiQD-BAZNJH8E0Y1RaX04AH7OANMdo0gNQYz8Kxa5gXPjAe7KUkanGOQRPFEN3xKey8-Kh-j_i69Pb4Ptqc4mEphVg_NGAjzwrGu506f4WhQ7it2bB8vafy6T6lhxxYL1Hk_afVfxqlc4N5WqS8KzG81rmXngPsL7PHADImhB0WS7dQXcez7YsqlAlbOTnUQv28knrsZybXis1teY8k9w1-HAhSHzT0iIMh1xF6H-VudOHMb3GQ2vge8fW7RwCUQOpe7IbtjQKRcFUnPCiw24bCYCUapYqFOSNqzqur3kLo2e8gBv2u6lTwbGDaDCF1uFUhjHJUm97GaOkkhYzAuqyMUY9KJZwe3Cg-wqJnEUKREQoNxAcn_2_Yn9SYckd7S-8EJY6P9I4CYQbVCi0Js3f--ZidrubZhwDVYJ_eL_bLZvnhJxuUOLQOGCBTLopzu8xFqRe9YE6Cod2VUNXldQZUFsOXOwM2gvBauWn_rFx9lsoT3pYLVJ62L_KCD8R7f2nAm78pAyyrCtbjZVdS7T6FVh6V4ruZshbIOtAcAJPqKwTZr2MAg
 @Restaurants.API_HostAddress = {{host}}:{{port}}
 
 
 GET {{Restaurant.API_HostAddress}}/api/restaurants
-Authorization: Bearer {{token}}}
+Authorization: Bearer {{token}}
 
 
 ###
@@ -67,8 +67,8 @@ POST {{Restaurants.API_HostAddress}}/api/identity/register
 Content-Type: application/json
 
 {
-  "email": "testrequest@test.com",
-  "password": "Zulfiqor!123"
+  "email": "testrequest1@test.com",
+  "password": "Zulfiqor!1234"
 }
 
 ###
@@ -77,6 +77,6 @@ POST {{Restaurants.API_HostAddress}}/api/identity/login
 Content-Type: application/json
 
 {
-  "email": "testrequest@test.com",
-  "password": "Zulfiqor!123"
+  "email": "testrequest1@test.com",
+  "password": "Zulfiqor!1234"
 }

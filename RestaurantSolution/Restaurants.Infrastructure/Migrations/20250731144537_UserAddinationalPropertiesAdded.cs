@@ -18,7 +18,7 @@ namespace Restaurants.Infrastructure.Migrations
                 nullable: true);
 
             migrationBuilder.AddColumn<string>(
-                name: "Nationally",
+                name: "Nationality",
                 table: "AspNetUsers",
                 type: "nvarchar(max)",
                 nullable: true);
@@ -32,7 +32,7 @@ namespace Restaurants.Infrastructure.Migrations
                 table: "AspNetUsers");
 
             migrationBuilder.DropColumn(
-                name: "Nationally",
+                name: "Nationality",
                 table: "AspNetUsers");
         }
     }
