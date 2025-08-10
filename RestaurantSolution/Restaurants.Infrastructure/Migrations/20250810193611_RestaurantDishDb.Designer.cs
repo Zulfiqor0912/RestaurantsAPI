@@ -12,8 +12,8 @@ using Restaurants.Infrastructure.Persistence;
 namespace Restaurants.Infrastructure.Migrations
 {
     [DbContext(typeof(RestaurantsDbContext))]
-    [Migration("20250731144537_UserAddinationalPropertiesAdded")]
-    partial class UserAddinationalPropertiesAdded
+    [Migration("20250810193611_RestaurantDishDb")]
+    partial class RestaurantDishDb
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

@@ -1,6 +1,7 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Logging;
+using Restaurants.Domain.Exceptions;
 
 namespace Restaurants.Application.User.Commands;
 
@@ -14,7 +15,11 @@ public class UpdateUserDetailsCommandHandler(ILogger<UpdateUserDetailsCommandHan
         logger.LogInformation("Userlar yangilandi: {UserId} with {@Request}", user!.id, request);
         var dbUser = await userStore.FindByIdAsync(user.id, cancellationToken);
 
-        dbUser.Nationality =  
+        if (dbUser == null) throw new NotFoundException(nameof(User), user!.id);
 
+        dbUser.Nationality = request.National;
+        dbUser.DateOfBirth = request.DateOfBirth;
+
+        await userStore.UpdateAsync(dbUser, cancellationToken);
     }
 }

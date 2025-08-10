@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using MediatR;
 
-namespace Restaurants.Application.User.Commands
+namespace Restaurants.Application.User.Commands;
+
+public class UpdateUserDetailsCommand : IRequest
 {
-    internal class UpdateUserDetailsCommand
-    {
-    }
+    public DateOnly? DateOfBirth { get; set; }
+    public string? National { get; set; }
 }
