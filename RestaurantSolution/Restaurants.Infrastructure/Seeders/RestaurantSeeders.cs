@@ -33,8 +33,9 @@ internal class RestaurantSeeders(RestaurantsDbContext dbContext) : IRestaurantSe
             [
                 new (UserRoles.User),
                 new (UserRoles.Owner),
-                new (UserRoles.Admin)
+                new (UserRoles.Admin),
             ];
+
         return roles;
     }
 

@@ -2,7 +2,7 @@
 
 @host = https://localhost
 @port = 7049
-@token = CfDJ8BWwd6bU_aJOqFqnjdD6hnr8z3p4HtwSa2nLTiJ5vvJGEPHgjzaRM7R92UTPc28mkeuZCv03lE9Cq6yetohGz4LHZLBMENzwOr0weHpZ0gnH1x99qP9t4ledCc-2k3IBr6indSLUtgo8m2RX95r7TqlQLtRONrlusQftiQD-BAZNJH8E0Y1RaX04AH7OANMdo0gNQYz8Kxa5gXPjAe7KUkanGOQRPFEN3xKey8-Kh-j_i69Pb4Ptqc4mEphVg_NGAjzwrGu506f4WhQ7it2bB8vafy6T6lhxxYL1Hk_afVfxqlc4N5WqS8KzG81rmXngPsL7PHADImhB0WS7dQXcez7YsqlAlbOTnUQv28knrsZybXis1teY8k9w1-HAhSHzT0iIMh1xF6H-VudOHMb3GQ2vge8fW7RwCUQOpe7IbtjQKRcFUnPCiw24bCYCUapYqFOSNqzqur3kLo2e8gBv2u6lTwbGDaDCF1uFUhjHJUm97GaOkkhYzAuqyMUY9KJZwe3Cg-wqJnEUKREQoNxAcn_2_Yn9SYckd7S-8EJY6P9I4CYQbVCi0Js3f--ZidrubZhwDVYJ_eL_bLZvnhJxuUOLQOGCBTLopzu8xFqRe9YE6Cod2VUNXldQZUFsOXOwM2gvBauWn_rFx9lsoT3pYLVJ62L_KCD8R7f2nAm78pAyyrCtbjZVdS7T6FVh6V4ruZshbIOtAcAJPqKwTZr2MAg
+@token = CfDJ8BWwd6bU_aJOqFqnjdD6hnrLxoGEPfwT4zC4HKeslp_X6NpTNCfoTjpxmPVbZNl-sJEislePs11Y8iYnPZfqUKQPZkVbwAyCZ9b2MuGwNxPPmVh-MQ6346ZWXnX_VJ9RCXvcuw8X68ZtEj_EhIDKCePgkdJtHKi3OE6dQKrTLHiI3tT_jP-9_-EXUqkSyGAo_Ba8wKXDjiv0sK6OL3_un4YWzolJXvPz73cJqa5TOVZmHuK27tljzkH1LfG-H1rSnfq4FsQcRfQPhM3x9VUYAI4VCZlKzXTTrBzcdEThlnvJm-FEsy9D-9F21zgtreyBwc1oXwVweS9TQkPAx-gYcsDQZrqb25CCcX7J2D2x-mPU0syf9M6cJN5aZ196XZPp0INcxXxa-o1F6jwdnXyTRN7PK81Dsm_RHTuNSCp8vCQsmNKhLmX0jsogvCZnMD-LdXnqm2b6TUUk3XXdwd6fY0A-Xv5hHJwjjglZN8k9ZKAPScHV6jof7i0M6mYtCt7S7uUNJb9HU0R6peUwHua-lXSr5yc97Kq7D0IUjDlCOYpHulm7IOHzVnjqg8ZCQDCti4oHB1_gDmUF6BKXL9S6Z9nOBU0y7NvCtnGxjjN0tFFvKzP9JVwxY0GAcsXPr-pWapanotcpmMIIDvzK1HvLALHdlG_jjyDMddkkXIqMDGlbtRt9dCW8uS5P2p04b_z_aQ
 @Restaurants.API_HostAddress = {{host}}:{{port}}
 
 
@@ -20,9 +20,10 @@ GET {{Restaurant.API_HostAddress}}/api/restaurants/12
 ###
 
 POST {{Restaurant.API_HostAddress}}/api/restaurants
+Authorization: Bearer {{token}}
 Content-Type: application/json
 {
-    "Name": "Ahmad",
+    "Name": "Loll",
       "Description": "A cozy restaurant serving a variety of delicious dishes.",
       "Category": "Indian",
       "HasDelivery": true,
@@ -67,8 +68,8 @@ POST {{Restaurants.API_HostAddress}}/api/identity/register
 Content-Type: application/json
 
 {
-  "email": "testrequest1@test.com",
-  "password": "Zulfiqor!1234"
+  "email": "owner@gmail.com",
+  "password": "Owner!12"
 }
 
 ###
@@ -77,6 +78,6 @@ POST {{Restaurants.API_HostAddress}}/api/identity/login
 Content-Type: application/json
 
 {
-  "email": "testrequest1@test.com",
-  "password": "Zulfiqor!1234"
+  "email": "owner@gmail.com",
+  "password": "Owner!12"
 }
