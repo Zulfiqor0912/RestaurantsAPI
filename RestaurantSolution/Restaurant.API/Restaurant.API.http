@@ -2,7 +2,7 @@
 
 @host = https://localhost
 @port = 7049
-@token = CfDJ8BWwd6bU_aJOqFqnjdD6hnrLxoGEPfwT4zC4HKeslp_X6NpTNCfoTjpxmPVbZNl-sJEislePs11Y8iYnPZfqUKQPZkVbwAyCZ9b2MuGwNxPPmVh-MQ6346ZWXnX_VJ9RCXvcuw8X68ZtEj_EhIDKCePgkdJtHKi3OE6dQKrTLHiI3tT_jP-9_-EXUqkSyGAo_Ba8wKXDjiv0sK6OL3_un4YWzolJXvPz73cJqa5TOVZmHuK27tljzkH1LfG-H1rSnfq4FsQcRfQPhM3x9VUYAI4VCZlKzXTTrBzcdEThlnvJm-FEsy9D-9F21zgtreyBwc1oXwVweS9TQkPAx-gYcsDQZrqb25CCcX7J2D2x-mPU0syf9M6cJN5aZ196XZPp0INcxXxa-o1F6jwdnXyTRN7PK81Dsm_RHTuNSCp8vCQsmNKhLmX0jsogvCZnMD-LdXnqm2b6TUUk3XXdwd6fY0A-Xv5hHJwjjglZN8k9ZKAPScHV6jof7i0M6mYtCt7S7uUNJb9HU0R6peUwHua-lXSr5yc97Kq7D0IUjDlCOYpHulm7IOHzVnjqg8ZCQDCti4oHB1_gDmUF6BKXL9S6Z9nOBU0y7NvCtnGxjjN0tFFvKzP9JVwxY0GAcsXPr-pWapanotcpmMIIDvzK1HvLALHdlG_jjyDMddkkXIqMDGlbtRt9dCW8uS5P2p04b_z_aQ
+@token = CfDJ8BWwd6bU_aJOqFqnjdD6hnoF4xVAUhbhWP-J2aPAJuCignNYNBg72KuhkAyA-goehlVa9e4Hvr2F98voHXbhcyQu8NR7tsqd3DXJwSf1_Y1phIaY4O0JweWvqRxRTTPlvwlNwcVA2zmfZCfhcwfTS7SSEcYP85wzRkxLDICnaOFTOzq1KEFlWFcedqTPiuRTyXrFEDifLL2QM_Gm2J2s5kLQxpDzBalIlHIlWv7eUgEBuVN_9A9BjEDs8DxaUlJPoeJqdfibCI9NYwH5rE363qvx3jcyrS0VIKfoD_47cFz-MXlhvtFvkx70kfkVoTLfQN8Ux1_J6HoAWcYX-R2HTwvUIIw04bOfKgNKfWMr8fui1QPPDCH0rh24l-SA8uTS1zFp9cUg2GvY56PJr_Gx52qfvm-Q-HRegGdLgbVSdHWlMNmGem5l2hSPEDCSk4hhueEgAAZxMb8EAPzC48t1bqpvy6DxCiP-UIE-n_dvCIqRzYJ3Y84Ycj1J_n8qLzQjKuIhIQLpL8EmGTUhEgY7Cqv_i_-kSrbS4TLCPqkMM1C_YxIkET9AtkB-chatM72Sm_l4eMp-9EUXb2K3xYLwP_DQ-UYtNrllh8CqwIjD7zXyB5i95cjL3JtXW-8s6B4SWBaBMJVitxkQxlVsXgMcmMEtBsjF6B948E10dqfCXIX_6imaGJ-0yQUi-OLRiKn93tJCZ2hestoSfxW_SCTpTQcWOs6VzQiDFZZYecED3zMGJkhTENTwpRCbnT1ddxNKgZg_3jgYGqjEZW2hufcd8cX6iDoFL3T6XCqn8P_fiX60
 @Restaurants.API_HostAddress = {{host}}:{{port}}
 
 
@@ -23,7 +23,7 @@ POST {{Restaurant.API_HostAddress}}/api/restaurants
 Authorization: Bearer {{token}}
 Content-Type: application/json
 {
-    "Name": "Loll",
+    "Name": "Lolll",
       "Description": "A cozy restaurant serving a variety of delicious dishes.",
       "Category": "Indian",
       "HasDelivery": true,
