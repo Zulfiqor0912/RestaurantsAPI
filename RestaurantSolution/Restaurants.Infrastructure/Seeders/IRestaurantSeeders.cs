@@ -5,6 +5,7 @@ namespace Restaurants.Infrastructure.Seeders
     public interface IRestaurantSeeders
     {
         Task Seed();
-        IEnumerable<IdentityRole> GetRoles();
+
+        //IEnumerable<IdentityRole> GetRoles();
     }
 }
